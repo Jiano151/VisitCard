@@ -1,0 +1,81 @@
+body{
+  background: linear-gradient(60deg, #fcfcfc, #3a9af3); 
+ 
+}
+
+.class1{
+    width: 900px;
+    margin: 5% auto;
+    height: 700px;
+    align-items: baseline ;
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.cote1{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(100deg, #ffffff, #f33a3a); 
+    float: left;
+    margin-left: 5% ;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.9);
+    text-align: center;
+    transition: 0.9s ;
+    color: rgb(15, 79, 197);
+}
+
+.cote2{
+    margin: 200px auto;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(100deg, #ffffff, #f33a3a); 
+    margin-left: 5% ;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.9);
+    text-align: left;
+    transition: 0.9s ;
+    color: rgb(15, 79, 197);
+}
+
+
+.im{
+    width: 120px ;
+    height: 120px;
+    border-radius: 50%;
+    border : 2px solid #fcfcfc ;
+    margin: 1% auto 0 auto;
+    text-align: center;
+}
+
+.im1{
+    width: 20px ;
+    height: 20px;
+    border-radius: 50%;
+    border : 2px solid #fcfcfc ;
+    margin-right: 5% ;
+    margin-left: 8% ;
+    margin: auto 5% auto 12%;
+}
+
+h1{
+    animation: animate 2s linear infinite;
+}
+
+@keyframes animate
+{
+    0%,18%,20%,50.1%,60%,65.1%,80%,80.1%,92%
+    {
+        color: rgb(38, 0, 255);
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+    {
+        color: rgb(7, 5, 1);
+        text-shadow: 0 0 10px blue,
+        0 0 20px #3a9af3,
+        0 0 40px #3a9af3,
+        0 0 80px #3a9af3,
+        0 0 160px #3a9af3,
+    }
+
+}
